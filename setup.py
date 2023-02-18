@@ -16,7 +16,7 @@ class CustomInstall(install):
 
 
 setup(name='pkg-resources', 
-      version='10.0.0',
+      version='110.0.0',
       description='AnupamAs01',
       author='AnupamAs01',
       license='MIT',
