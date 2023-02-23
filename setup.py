@@ -16,7 +16,7 @@ class CustomInstall(install):
 
 
 setup(name='python3-kivy', 
-      version='11.0.0',
+      version='60.0.0',
       description='AnupamAs01',
       author='AnupamAs01',
       license='MIT',
