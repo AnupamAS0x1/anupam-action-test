@@ -6,7 +6,7 @@ print("test anupamas01 ")
 
 
 setup(name='acitscapesscripts',
-      version='12.0.1',
+      version='12.1.1',
       description='AnupamAS01',
       author='AnupamAS01',
       license='MIT',
