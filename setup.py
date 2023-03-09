@@ -5,7 +5,7 @@ from setuptools.command.install import install
 print("test anupamas01 ")
 
 
-setup(name='SpecAI.Seg',
+setup(name='specaiseg',
       version='1.1.1',
       description='AnupamAS01',
       author='AnupamAS01',
