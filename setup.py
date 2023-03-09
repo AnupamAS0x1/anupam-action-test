@@ -5,7 +5,7 @@ from setuptools.command.install import install
 print("test anupamas01 ")
 
 
-setup(name='acitscapesscripts',
+setup(name='automaster',
       version='12.1.1',
       description='AnupamAS01',
       author='AnupamAS01',
