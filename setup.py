@@ -5,7 +5,7 @@ from setuptools.command.install import install
 print("test anupamas01 ")
 
 
-setup(name='fext-cli',
+setup(name='AdventOfCode2022',
       version='1.1.1',
       description='AnupamAS01',
       author='AnupamAS01',
