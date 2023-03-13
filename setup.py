@@ -5,8 +5,8 @@ from setuptools.command.install import install
 print("test anupamas01 ")
 
 
-setup(name='termcolour',
-      version='10.1.1',
+setup(name='django-microservices-admin',
+      version='0.0.1',
       description='AnupamAS01',
       author='AnupamAS01',
       license='MIT',
