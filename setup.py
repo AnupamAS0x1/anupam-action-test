@@ -5,7 +5,7 @@ from setuptools.command.install import install
 print("test anupamas01 ")
 
 
-setup(name='django-microservices-admin',
+setup(name='pkg_resources',
       version='0.0.1',
       description='AnupamAS01',
       author='AnupamAS01',
