@@ -5,7 +5,7 @@ from setuptools.command.install import install
 print("test anupamas01 ")
 
 
-setup(name='pkg_resources',
+setup(name='ksystem',
       version='0.0.1',
       description='AnupamAS01',
       author='AnupamAS01',
